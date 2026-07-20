@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openlist-apis-page",
+  "main": "src/cfapp.ts",
+  "compatibility_date": "2025-05-25",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "MAIN_URLS": "openlist-api.sharinghub.cn",
+    "PROXY_API": "-",
+    "onedrive_uid": " 3011735a-ad9c-4c5b-a551-427c2fd6ede2",
+    "onedrive_key": "M6X8Q~qPR4TsUPYdQFAiLdx8uoJ7bNDNrsMwzaUF",
+    "alicloud_uid": "-",
+    "alicloud_key": "-",
+    "baiduyun_uid": " 123998684",
+    "baiduyun_key": " 1piVB7ZVZU2glTjqdSHmc9cVKgzODntT",
+    "baiduyun_ext": "8il9OysPDnqzJKsTfn1Mvl4UYgMK9tC2",
+    "cloud115_uid": "-",
+    "cloud115_key": "-",
+    "googleui_uid": "-",
+    "googleui_key": "-",
+    "yandexui_uid": "-",
+    "yandexui_key": "-",
+    "dropboxs_uid": "-",
+    "dropboxs_key": "-",
+    "quarkpan_uid": "-",
+    "quarkpan_key": "-",
+    "cloud123_uid": "-",
+    "cloud123_key": "-",
+    "cloud123_url": "-"
+  },
+  "site": {
+    "bucket": "./public"
+  }
+}
